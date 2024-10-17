@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-
+""" Basic async syntax """
 import asyncio
 import random
-""" Basic async syntax """
 
 
 async def wait_random(max_delay: int = 10) -> float:
