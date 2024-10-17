@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import asyncio, random
+""" Basic async syntax """
+
 
 async def wait_random(max_delay: int = 10) -> float:
     """Wait for a random delay between 0 and max_delay seconds"""
